@@ -1,8 +1,10 @@
 <?php
 
-namespace Phois\Whois;
+namespace aquy\whois;
 
-class Whois
+use yii\base\Component;
+
+class Whois extends Component
 {
     private $domain;
 

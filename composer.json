@@ -1,8 +1,8 @@
 {
-    "name": "phois/whois",
-    "description": "Whois client.",
-    "keywords": ["whois"],
-    "version": "1.0.0",
+    "name": "aquy/yii2-whois",
+    "type": "yii2-extension",
+    "description": "Whois client for yii2.",
+    "keywords": ["yii2", "whois"],
     "license": "MIT",
     "authors": [
         {
@@ -10,13 +10,20 @@
             "email": "David.R.Rivera193@gmail.com",
             "homepage": "http://www.protodx.com",
             "role": "Systems Developer"
+        },
+        {
+            "name": "Алексей Лихачев",
+            "email": "aquy@yandex.ru"
         }
     ],
     "require": {
         "php": ">=5.3.2",
+        "yiisoft/yii2": "*",
         "ext-curl": "*"
     },
     "autoload": {
-        "psr-0": { "Phois\\Whois": "src" }
+        "psr-4": {
+            "aquy\\whois\\": ""
+        }
     }
 }
