@@ -1,5 +1,5 @@
 {
-    "name": "aquy/yii2-whois",
+    "name": "overals/yii2-whois",
     "type": "yii2-extension",
     "description": "Whois client for yii2.",
     "keywords": ["yii2", "whois"],
@@ -12,8 +12,8 @@
             "role": "Systems Developer"
         },
         {
-            "name": "Алексей Лихачев",
-            "email": "aquy@yandex.ru"
+            "name": "Evgeny Gorchak",
+            "email": "evgenygor89@gmail.com"
         }
     ],
     "require": {
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "aquy\\whois\\": ""
+            "overals\\whois\\": ""
         }
     }
 }

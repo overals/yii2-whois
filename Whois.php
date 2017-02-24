@@ -1,10 +1,10 @@
 <?php
 
-namespace aquy\whois;
+namespace overals\whois;
 
-use yii\base\Component;
+use yii\base\Object;
 
-class Whois extends Component
+class Whois extends Object
 {
     private $domain;
 
@@ -33,6 +33,9 @@ class Whois extends Component
         $this->servers = json_decode(file_get_contents( __DIR__.'/whois.servers.json' ), true);
     }
 
+    /**
+     * @return string
+     */
     public function info()
     {
         if ($this->isValid()) {
@@ -127,6 +130,9 @@ class Whois extends Component
         }
     }
 
+    /**
+     * @return string
+     */
     public function htmlInfo()
     {
         return nl2br($this->info());
@@ -156,6 +162,9 @@ class Whois extends Component
         return $this->subDomain;
     }
 
+    /**
+     * @return bool
+     */
     public function isAvailable()
     {
         $whois_string = $this->info();
@@ -183,6 +192,9 @@ class Whois extends Component
         }
     }
 
+    /**
+     * @return bool
+     */
     public function isValid()
     {
         if (
