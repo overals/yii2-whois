@@ -6,7 +6,7 @@ PHP class to retrieve WHOIS information.
 ## Installation
 
 ```bash
-$ php composer.phar require overals/yii2-whois "~1.0.1"
+$ php composer.phar require overals/yii2-whois "~1.0.0"
 ```
 
 #### OR
@@ -16,7 +16,7 @@ Add to your `composer.json`
 ```json
 {
     "require": {
-        "overals/yii2-whois": "~1.0.1"
+        "overals/yii2-whois": "~1.0.0"
     }
 }
 ```
