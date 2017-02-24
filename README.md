@@ -1,7 +1,7 @@
 Yii2 Whois
 =====================
 
-PHP class to retrieve WHOIS information.
+Yii2 extension to retrieve WHOIS information.
 
 ## Installation
 
