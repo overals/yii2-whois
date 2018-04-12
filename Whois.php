@@ -2,9 +2,9 @@
 
 namespace overals\whois;
 
-use yii\base\Object;
+use yii\base\BaseObject;
 
-class Whois extends Object
+class Whois extends BaseObject
 {
     private $domain;
 
