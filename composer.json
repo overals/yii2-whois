@@ -3,7 +3,7 @@
     "type": "yii2-extension",
     "description": "Whois client for yii2.",
     "keywords": ["yii2", "whois"],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "authors": [
         {
